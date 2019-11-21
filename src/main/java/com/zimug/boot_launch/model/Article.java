@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
+
+
 @Data
 @Slf4j
 @Builder
@@ -13,9 +15,7 @@ public class Article {
 
     private Long id;
     private String author;
-    private String title;
-    private String content;
-    private String createTime;
+
 
 
 }
