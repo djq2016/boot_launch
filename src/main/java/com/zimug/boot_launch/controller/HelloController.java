@@ -14,7 +14,6 @@ public class HelloController {
     }
 
 
-
     @RequestMapping("/testhello")
     public Article testhello() {
         /*Article article = new Article(1L,"zimug");
